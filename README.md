@@ -30,7 +30,7 @@ docker compose up -d --build
 
 Akses:
 - Frontend: http://localhost:3000
-- Backend API docs: http://localhost:8000/docs
+- Backend API docs: http://localhost:8001/docs
 
 Untuk menghentikan:
 ```bash
@@ -73,10 +73,10 @@ python train_model.py
 ```bash
 cd backend
 pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8001
 ```
 
-API docs tersedia di: http://localhost:8000/docs
+API docs tersedia di: http://localhost:8001/docs
 
 #### 3. Jalankan Frontend
 
