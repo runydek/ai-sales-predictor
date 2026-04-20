@@ -93,6 +93,24 @@ Frontend berjalan di: http://localhost:3000
 - **Username:** `admin`
 - **Password:** `admin123`
 
+## Screenshots
+
+### Login
+
+![Login](docs/login.png)
+
+### Dashboard - Data Penjualan
+
+![Dashboard](docs/dashboard.png)
+
+### Prediksi - Laris
+
+![Prediksi Laris](docs/laris.png)
+
+### Prediksi - Tidak Laris
+
+![Prediksi Tidak](docs/tidak.png)
+
 ## API Endpoints
 
 | Method | Endpoint | Deskripsi | Auth |
